@@ -28,7 +28,21 @@ netcore-essential/
 ## Projects
 
 ### src/CsharpFeatures (Console)
-Demonstrates modern C# language features including LINQ, async/await, pattern matching, record types, and more.
+Demonstrates modern C# language features organized into topical folders:
+
+| Folder | Description |
+|--------|-------------|
+| `Basic/` | Fundamentals: types, control flow, methods, nullable types |
+| `Advanced/` | Advanced topics: reflection, dynamic, unsafe code, diagnostics |
+| `Collections/` | Generic and non-generic collections, custom collections |
+| `DataStructure/` | Classic data structures: stack, queue, linked list, tree, graph |
+| `ParallelProgramming/` | Tasks, PLINQ, async/await, thread synchronization |
+| `Linq/` | LINQ to Objects, LINQ to XML, query expressions, deferred execution |
+| `Csharp10/` | C# 10 features: global usings, file-scoped namespaces, record structs |
+| `Csharp11/` | C# 11 features: required members, ref fields, list patterns |
+| `Csharp12/` | C# 12 features: primary constructors, collection expressions, aliases |
+| `Csharp13/` | C# 13 features: extension types, params collections, new lock object |
+| `Csharp14/` | C# 14 features: field keyword, semi-auto properties, lambda expressions |
 
 ### src/AspNetCoreFeatures (Web)
 Covers ASP.NET Core fundamentals such as Razor Pages/MVC, middleware pipeline, dependency injection, configuration, and logging.
